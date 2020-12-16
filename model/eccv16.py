@@ -145,7 +145,7 @@ class MultinomialScore(nn.Module):
         with open(weight_term_file) as current_file:
             reader = csv.DictReader(current_file)
             for index, row in enumerate(reader):
-                self.weight_term[index] = float(row[0])
+                self.weight_term[index] = float(row[3])
         self.weight_term = torch.tensor(self.weight_term)
 
     def forward(self, origin, origin_soft, pred):

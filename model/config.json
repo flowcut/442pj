@@ -1,0 +1,8 @@
+{
+	"num_color_channel": 409,
+	"image_dir": "D:\\Project_Assets\\VOCdevkit\\VOC2012\\JPEGImages\\",
+	"root_dir": "D:\\Project_Assets\\eecs442_final_project\\impl\\",
+	"color_map": "model\\color.csv",
+	"save_step": 10,
+	"model_dir": "D:\\Project_Assets\\eecs442_final_project\\ckpt\\"
+}
